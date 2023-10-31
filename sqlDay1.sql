@@ -9,7 +9,6 @@ WHERE last_name = 'Wahlberg';
 -- Two actors. Used Count to display the answer when you run the query.
 
 
-
 -- 2. How many payments were made between $3.99 and $5.99?
 
 SELECT COUNT(*)
@@ -116,6 +115,8 @@ AND last_name LIKE '%es';
 
 -- 13
 -- I took the count off and checked myself to make sure I had it right
+
+
 
 
 -- 9. How many payment amounts (4.99, 5.99, etc.) had a number of rentals above 
