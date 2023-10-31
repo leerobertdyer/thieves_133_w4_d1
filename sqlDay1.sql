@@ -28,6 +28,8 @@ ORDER BY Film_Id_Count DESC;
 
 SELECT * FROM inventory ORDER BY film_id;
 
+-- There are 72 movies with quantities of 8...
+-- And a similar amount for 7, 6, etc...
 -- This feels like a trick question. 
 -- There are a ton of movies with the same film_id and different inventory_id
 -- So I'm assuming those are the same movie but kept track of differently in each store.
